@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Edgar | Digital Card</title>
 
 <style>
 
 body{
-font-family: Arial, sans-serif;
-background: linear-gradient(135deg,#1e3c72,#2a5298);
+font-family: Arial;
+background:linear-gradient(135deg,#000000,#434343);
 margin:0;
-color:white;
 text-align:center;
+color:white;
 }
 
-.container{
-max-width:380px;
-margin:40px auto;
+.card{
 background:white;
 color:black;
+max-width:350px;
+margin:60px auto;
 padding:30px;
-border-radius:15px;
-box-shadow:0 10px 25px rgba(0,0,0,0.3);
+border-radius:20px;
+box-shadow:0 15px 30px rgba(0,0,0,0.4);
 }
 
-.profile img{
+.profile{
 width:110px;
 border-radius:50%;
 margin-bottom:10px;
 }
 
 h1{
-margin:5px 0;
+margin:5px;
 }
 
 .title{
@@ -44,47 +43,41 @@ margin-bottom:20px;
 
 .btn{
 display:block;
-text-decoration:none;
-background:#2a5298;
-color:white;
 padding:12px;
 margin:10px 0;
 border-radius:8px;
-font-size:16px;
+text-decoration:none;
+color:white;
+background:#0073ff;
+font-weight:bold;
 }
 
 .btn:hover{
-background:#1e3c72;
+background:#0055cc;
 }
 
 .social{
-margin-top:20px;
+margin-top:15px;
 }
 
 .social a{
 margin:0 10px;
-text-decoration:none;
 font-size:22px;
-}
-
-.footer{
-margin-top:20px;
-font-size:12px;
-color:gray;
+text-decoration:none;
 }
 
 </style>
+
 </head>
 
 <body>
 
-<div class="container">
+<div class="card">
 
-<div class="profile">
-<img src="profile.jpg">
+<img class="profile" src="https://i.imgur.com/yourphoto.png">
+
 <h1>Edgar</h1>
 <div class="title">Entrepreneur</div>
-</div>
 
 <a class="btn" href="tel:+1234567890">📞 Call Me</a>
 
@@ -92,15 +85,11 @@ color:gray;
 
 <a class="btn" href="contact.vcf">💾 Save Contact</a>
 
-<a class="btn" href="https://instagram.com/yourname">📸 Instagram</a>
+<a class="btn" href="https://instagram.com">📸 Instagram</a>
 
-<a class="btn" href="https://linkedin.com/in/yourname">💼 LinkedIn</a>
+<a class="btn" href="https://linkedin.com">💼 LinkedIn</a>
 
-<a class="btn" href="https://paypal.me/yourname">💳 Send Tip</a>
-
-<div class="footer">
-Tap my NFC card to open this page
-</div>
+<a class="btn" href="https://paypal.me">💳 Send Tip</a>
 
 </div>
 
